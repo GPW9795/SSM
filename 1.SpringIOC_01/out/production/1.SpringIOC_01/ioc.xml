@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+    <!--注册Person对象-->
+    <bean id="person01" class="com.gpw.bean.Person">
+        <property name="lastName" value="张三"></property>
+        <property name="age" value="18"></property>
+        <property name="email" value="vivian9795@173.com"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+    <bean id="person02" class="com.gpw.bean.Person">
+        <property name="lastName" value="张三"></property>
+        <property name="age" value="18"></property>
+    </bean>
+    <bean id="person03" class="com.gpw.bean.Person">
+        <constructor-arg name="lastName" value="cbx"></constructor-arg>
+        <constructor-arg name="age" value="20"></constructor-arg>
+        <constructor-arg name="email" value="3243546@122343.com"></constructor-arg>
+        <constructor-arg name="gender" value="男"></constructor-arg>
+    </bean>
+    <bean id="person04" class="com.gpw.bean.Person">
+        <constructor-arg value="gpw"></constructor-arg>
+        <constructor-arg value="20"></constructor-arg>
+        <constructor-arg value="女"></constructor-arg>
+        <constructor-arg value="3243546@122343.com"></constructor-arg>
+    </bean>
+    <bean id="person05" class="com.gpw.bean.Person"
+          p:age="18"
+          p:email="23456@123.com"
+          p:gender="male"
+          p:lastName="cbx">
+    </bean>
+
+</beans>
