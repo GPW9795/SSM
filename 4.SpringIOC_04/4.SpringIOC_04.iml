@@ -3,8 +3,8 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="ApplicationContext" removed="false">
-          <file>file://$MODULE_DIR$/conf/applicationContext.xml</file>
+        <fileset id="fileset" name="Ioc" removed="false">
+          <file>file://$MODULE_DIR$/conf/ioc.xml</file>
         </fileset>
       </configuration>
     </facet>
@@ -17,7 +17,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Spring" level="project" />
+    <orderEntry type="library" name="spring" level="project" />
     <orderEntry type="module-library">
       <library name="JUnit4">
         <CLASSES>
@@ -28,8 +28,5 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="spring-aop-4.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="spring-tx-4.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="spring-test-4.0.0.RELEASE" level="project" />
   </component>
 </module>
