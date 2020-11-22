@@ -19,13 +19,14 @@
 
     <aop:config>
         <aop:pointcut id="mypoint" expression="execution(* com.gpw.impl.*.*(..))"/>
-        <aop:aspect ref="logUtils">
+        <aop:aspect ref="logUtils" order="3">
             <aop:before method="logStart" pointcut-ref="mypoint"/>
             <aop:after-returning method="logReturn" pointcut-ref="mypoint" returning="result"/>
             <aop:after-throwing method="logException" pointcut-ref="mypoint" throwing="exception"/>
             <aop:after method="logEnd" pointcut-ref="mypoint"/>
+            <aop:around method="myAround" pointcut-ref="mypoint"/>
         </aop:aspect>
-        <aop:aspect ref="BValidateApsect">
+        <aop:aspect ref="BValidateApsect" order="2">
             <aop:before method="logStart" pointcut-ref="mypoint"/>
             <aop:after-returning method="logReturn" pointcut-ref="mypoint" returning="result"/>
             <aop:after-throwing method="logException" pointcut-ref="mypoint" throwing="exception"/>

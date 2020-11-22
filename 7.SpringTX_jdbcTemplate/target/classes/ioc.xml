@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+    <context:component-scan base-package="com.gpw"></context:component-scan>
+
+    <!--引入外部配置文件  -->
+    <context:property-placeholder location="classpath:dbconfig.properties"/>
+
+    <!-- 实验1：测试数据源
+    ${}取出配置文件中的值
+    #{}Spring的表达式语言
+     -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="user" value="${jdbc.user}"></property>
+        <property name="password" value="${jdbc.password}"></property>
+        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+        <property name="driverClass" value="${jdbc.driverClass}"></property>
+    </bean>
+
+    <!-- Spring提供了一个类JdbcTemplate，我们用它操作数据库；
+        导入Spring的数据库模块
+            spring-jdbc-4.0.0.RELEASE.jar
+            spring-orm-4.0.0.RELEASE.jar
+            spring-tx-4.0.0.RELEASE.jar
+         -->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <constructor-arg name="dataSource" ref="dataSource"></constructor-arg>
+    </bean>
+
+    <!-- 配置一个具有  具名参数  功能的JdbcTemplate；NamedParameterJdbcTemplate -->
+    <bean id="namedParameterJdbcTemplate" class="org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate">
+        <!-- 使用构造器方式注入一个数据源 -->
+        <constructor-arg name="dataSource" ref="dataSource"></constructor-arg>
+    </bean>
+
+
+</beans>
