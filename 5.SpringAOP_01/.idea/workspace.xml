@@ -1,31 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="90c95d72-0560-403f-94cb-0a56f459f0ec" name="默认的" comment="" />
+    <list default="true" id="42683782-2208-40d8-8d4c-39eb1a7549bd" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/conf/ioc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/impl/MyMathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/utils/BValidateApsect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/utils/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6.SpringAOP_02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6.SpringAOP_02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6.SpringAOP_02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5.SpringAOP_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/5.SpringAOP_01.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1kasG7FOA3dEH5bmzuK38MnPDcv" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kbbuhw53U10LYmaitbnvJpdUzJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/gpw/impl" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/gpw/impl" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AOPTest.test03">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="5.SpringAOP_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="5.SpringAOP_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="5.SpringAOP_01" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AOPTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AOPTest.test03" />
+        <item itemvalue="JUnit.AOPTest.test02" />
+        <item itemvalue="JUnit.AOPTest.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90c95d72-0560-403f-94cb-0a56f459f0ec" name="默认的" comment="" />
-      <created>1605949938743</created>
+      <changelist id="42683782-2208-40d8-8d4c-39eb1a7549bd" name="默认的" comment="" />
+      <created>1605972464747</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605949938743</updated>
+      <updated>1605972464747</updated>
+      <workItem from="1605972465761" duration="905000" />
+      <workItem from="1606025426809" duration="4263000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="731" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606025957648">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="731" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1606025957648" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1606031500279">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606031500279" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1606029017027" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1606031500278">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606031500278" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1606029017026" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1606031500278">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606031500278" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1606029017025" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1606031500279">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606031500279" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1606029017026" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1606028115364">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1606028115364" />
+    <state x="697" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606028024205">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="697" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1606028024205" />
+    <state x="584" y="251" key="spring file set editor" timestamp="1606025981386">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="584" y="251" key="spring file set editor/0.0.1792.1120@0.0.1792.1120" timestamp="1606025981386" />
   </component>
 </project>
