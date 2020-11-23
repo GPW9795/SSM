@@ -23,12 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087c79fa-7576-4459-a6b1-4427fa8521d8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/conf/dbconfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/conf/ioc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/main/java/com/gpw/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/main/java/com/gpw/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/test/java/TxTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/test/java/TxTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../9.SpringTX_txDetail/src/test/java/TxTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606036610279</updated>
-      <workItem from="1606036611299" duration="2727000" />
+      <workItem from="1606036611299" duration="2731000" />
     </task>
     <servers />
   </component>
@@ -135,22 +131,22 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="648" y="432" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1792.1120@0.0.1792.1120" timestamp="1606037648214" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1606037833910">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1606099469253">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606037833910" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1606037833909">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606099469253" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1606099469252">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606037833909" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1606037833908">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606099469252" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1606099469252">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606037833908" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1606037833909">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606099469252" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1606099469253">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606037833909" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606099469253" />
     <state x="495" y="223" key="new project wizard" timestamp="1606047754020">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
