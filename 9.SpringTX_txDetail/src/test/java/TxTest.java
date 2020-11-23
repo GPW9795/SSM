@@ -10,7 +10,6 @@ public class TxTest {
     @Test
     public void test() {
         BookService bookService = ioc.getBean(BookService.class);
-
         bookService.checkout("Tom", "ISBN-001");
     }
 
