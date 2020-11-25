@@ -28,50 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab1d1de2-57b7-432d-9ea4-cc10ea392b31" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/src/com/gpw/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.SpringMVC_request.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/5.SpringMVC_output.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/java/com/gpw/controller/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/java/com/gpw/pojo/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/java/com/gpw/pojo/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../5.SpringMVC_output/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.SpringMVC_hellowprld/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.SpringMVC_hellowprld/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.SpringMVC_hellowprld/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.SpringMVC_hellowprld/2.SpringMVC_hellowprld.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2.SpringMVC_hellowprld/untitled/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/classes/com/gpw/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/classes/com/gpw/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/artifacts/3_SpringMVC_helloworld_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/production/3.SpringMVC_helloworld/com/gpw/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/out/production/3.SpringMVC_helloworld/com/gpw/controller/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/src/com/gpw/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/src/com/gpw/controller/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../3.SpringMVC_helloworld/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,17 +94,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.59" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
@@ -294,6 +240,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606216903029</updated>
       <workItem from="1606216904215" duration="4207000" />
+      <workItem from="1606301381096" duration="141000" />
     </task>
     <servers />
   </component>
@@ -310,6 +257,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -387,9 +335,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state width="1204" height="318" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606223530080" />
-    <state x="495" y="223" key="new project wizard" timestamp="1606223234283">
+    <state x="495" y="223" key="new project wizard" timestamp="1606301414122">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="495" y="223" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1606223234283" />
+    <state x="495" y="223" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1606301414122" />
   </component>
 </project>
