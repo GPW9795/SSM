@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="6.SpringMVC_viewResolver:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -23,17 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388b9ff5-4541-4d6f-83c7-7e38966166f8" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6.SpringMVC_viewResolver.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../4.SpringMVC_request/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4.SpringMVC_request/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/MyView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/MyViewReslover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/Other.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/classes/com/gpw/controller/MyView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/classes/com/gpw/controller/MyViewReslover.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/classes/com/gpw/controller/Other.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gpw/controller/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gpw/controller/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/classes/com/gpw/controller/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/classes/com/gpw/controller/Hello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/WEB-INF/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/6.SpringMVC_viewResolver/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gpw/controller/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gpw/controller/Hello.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +55,20 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -59,7 +79,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1kmOIohISsLQc82ukBZRoOCFs2p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,12 +93,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gpw.controller" />
     </key>
@@ -178,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606302222894</updated>
-      <workItem from="1606302224550" duration="255000" />
+      <workItem from="1606302224550" duration="3566000" />
     </task>
     <servers />
   </component>
@@ -201,25 +232,77 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="360" y="222" width="1071" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606302479081" />
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser" timestamp="1606361156771">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="273" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1606361156771" />
     <state x="384" y="141" key="#项目结构" timestamp="1606302400358">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="384" y="141" key="#项目结构/0.0.1792.1120@0.0.1792.1120" timestamp="1606302400358" />
-    <state width="1750" height="277" key="GridCell.Tab.0.bottom" timestamp="1606302256305">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="591" height="318" key="GridCell.Tab.0.bottom" timestamp="1606361452501">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1606302256305" />
-    <state width="1750" height="277" key="GridCell.Tab.0.center" timestamp="1606302256304">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="591" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452501" />
+    <state width="1204" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547663" />
+    <state width="591" height="318" key="GridCell.Tab.0.center" timestamp="1606361452500">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1606302256304" />
-    <state width="1750" height="277" key="GridCell.Tab.0.left" timestamp="1606302256304">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="591" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452500" />
+    <state width="1204" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547661" />
+    <state width="591" height="318" key="GridCell.Tab.0.left" timestamp="1606361452499">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1606302256304" />
-    <state width="1750" height="277" key="GridCell.Tab.0.right" timestamp="1606302256305">
-      <screen x="0" y="23" width="1792" height="1017" />
+    <state width="591" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452499" />
+    <state width="1204" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547660" />
+    <state width="591" height="318" key="GridCell.Tab.0.right" timestamp="1606361452500">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="277" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1606302256305" />
+    <state width="591" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452500" />
+    <state width="1204" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547662" />
+    <state width="591" height="318" key="GridCell.Tab.1.bottom" timestamp="1606361452503">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452503" />
+    <state width="1204" height="318" key="GridCell.Tab.1.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547549" />
+    <state width="591" height="318" key="GridCell.Tab.1.center" timestamp="1606361452502">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452502" />
+    <state width="1204" height="318" key="GridCell.Tab.1.center/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547548" />
+    <state width="591" height="318" key="GridCell.Tab.1.left" timestamp="1606361452501">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452501" />
+    <state width="1204" height="318" key="GridCell.Tab.1.left/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547547" />
+    <state width="591" height="318" key="GridCell.Tab.1.right" timestamp="1606361452502">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452502" />
+    <state width="1204" height="318" key="GridCell.Tab.1.right/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547549" />
+    <state width="591" height="318" key="GridCell.Tab.2.bottom" timestamp="1606361452505">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.2.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452505" />
+    <state width="1204" height="318" key="GridCell.Tab.2.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547552" />
+    <state width="591" height="318" key="GridCell.Tab.2.center" timestamp="1606361452504">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.2.center/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452504" />
+    <state width="1204" height="318" key="GridCell.Tab.2.center/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547551" />
+    <state width="591" height="318" key="GridCell.Tab.2.left" timestamp="1606361452503">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.2.left/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452503" />
+    <state width="1204" height="318" key="GridCell.Tab.2.left/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547550" />
+    <state width="591" height="318" key="GridCell.Tab.2.right" timestamp="1606361452504">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="591" height="318" key="GridCell.Tab.2.right/0.0.1792.1120@0.0.1792.1120" timestamp="1606361452504" />
+    <state width="1204" height="318" key="GridCell.Tab.2.right/0.23.1792.1017@0.23.1792.1017" timestamp="1606356547552" />
+    <state x="434" y="222" key="Maven.ArtifactSearchDialog" timestamp="1606360625507">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="434" y="222" key="Maven.ArtifactSearchDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1606360625507" />
   </component>
 </project>
