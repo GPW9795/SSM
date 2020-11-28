@@ -13,8 +13,13 @@
     <mvc:default-servlet-handler/>
     <mvc:annotation-driven></mvc:annotation-driven>
 
-    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-        <property name="maxUploadSize" value="#{1024*1024*20}"></property>
-        <property name="defaultEncoding" value="utf-8"></property>
-    </bean>
+    <mvc:interceptors>
+        <bean class="com.gpw.controller.MyFirstInterceptor"></bean>
+        <!--        <mvc:interceptor>-->
+        <!--            <mvc:mapping path="/test01"/>-->
+        <!--            <bean class="com.gpw.controller.MyFirstInterceptor"></bean>-->
+        <!--        </mvc:interceptor>-->
+    </mvc:interceptors>
+
+
 </beans>
