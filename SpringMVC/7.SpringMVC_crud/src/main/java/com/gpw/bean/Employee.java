@@ -1,5 +1,10 @@
 package com.gpw.bean;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import java.util.Date;
+
 public class Employee {
 
 	private Integer id;
@@ -8,8 +13,12 @@ public class Employee {
 	private String email;
 	//1 male, 0 female
 	private Integer gender;
-	
+
+	@JsonIgnore
 	private Department department;
+
+	@JsonFormat(pattern = "yyyy-MM-dd")
+	private Date birth;
 	
 	public Integer getId() {
 		return id;
@@ -51,25 +60,35 @@ public class Employee {
 		this.department = department;
 	}
 
-	public Employee(Integer id, String lastName, String email, Integer gender,
-			Department department) {
-		super();
+	public Employee(Integer id, String lastName, String email, Integer gender, Department department, Date birth) {
 		this.id = id;
 		this.lastName = lastName;
 		this.email = email;
 		this.gender = gender;
 		this.department = department;
+		this.birth = birth;
 	}
 
 	public Employee() {
 	}
 
+	public Date getBirth() {
+		return birth;
+	}
+
+	public void setBirth(Date birth) {
+		this.birth = birth;
+	}
+
 	@Override
 	public String toString() {
-		return "Employee [id=" + id + ", lastName=" + lastName + ", email="
-				+ email + ", gender=" + gender + ", department=" + department
-				+ "]";
+		return "Employee{" +
+				"id=" + id +
+				", lastName='" + lastName + '\'' +
+				", email='" + email + '\'' +
+				", gender=" + gender +
+				", department=" + department +
+				", birth=" + birth +
+				'}';
 	}
-	
-	
 }
