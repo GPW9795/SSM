@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gpw.dao.EmployeeDao">
+    <select id="getEmpById" resultType="com.gpw.bean.Employee">
+        select * from t_employee where id=#{id}
+    </select>
+    <update id="updateEmployee">
+        update t_employee set empname=#{empname}, gender=#{gender}, email=#{email} where id=#{id}
+    </update>
+    <delete id="deleteEmployee">
+        delete from t_employee where id=#{id}
+    </delete>
+    <insert id="insertEmployee">
+        insert into t_employee (empname, gender, email) values (#{empname}, #{gender}, #{email});
+    </insert>
+</mapper>
