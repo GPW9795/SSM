@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bcb34a54-cbb2-41d1-b43f-54fec6747763" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/resources/dbconfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/3.MyBatis_config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/3.MyBatis_config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/java/com/gpw/bean/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/java/com/gpw/bean/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/resources/EmployeeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/resources/com/gpw/dao/EmployeeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/resources/mybatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/main/resources/mybatis_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/test/java/MyBatisCRUDTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/src/test/java/MyBatisCRUDTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/classes/EmployeeDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/classes/com/gpw/bean/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/classes/com/gpw/bean/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/classes/mybatis_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/classes/mybatis_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/test-classes/MyBatisCRUDTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../MyBatis/3.MyBatis_config/target/test-classes/MyBatisCRUDTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2.MyBatis_helloworld_plus/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kyA2RLPbPwtIU9zYJ0x7nHgQOy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bcb34a54-cbb2-41d1-b43f-54fec6747763" name="默认的" comment="" />
+      <created>1606662252724</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606662252724</updated>
+      <workItem from="1606662253895" duration="52000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,19 +1,23 @@
 package com.gpw.bean;
 
+import org.apache.ibatis.type.Alias;
+
 public class Employee {
     private Integer id;
-    private String empname;
+    private String empName;
     private String email;
     private Integer gender;
+    private String loginAccount;
 
     public Employee() {
     }
 
-    public Employee(Integer id, String empname, String email, Integer gender) {
+    public Employee(Integer id, String empName, String email, Integer gender, String loginAccount) {
         this.id = id;
-        this.empname = empname;
+        this.empName = empName;
         this.email = email;
         this.gender = gender;
+        this.loginAccount = loginAccount;
     }
 
     public Integer getId() {
@@ -24,12 +28,12 @@ public class Employee {
         this.id = id;
     }
 
-    public String getEmpname() {
-        return empname;
+    public String getEmpName() {
+        return empName;
     }
 
-    public void setEmpname(String empName) {
-        this.empname = empName;
+    public void setEmpName(String empName) {
+        this.empName = empName;
     }
 
     public String getEmail() {
@@ -48,13 +52,22 @@ public class Employee {
         this.gender = gender;
     }
 
+    public String getLoginAccount() {
+        return loginAccount;
+    }
+
+    public void setLoginAccount(String loginAccount) {
+        this.loginAccount = loginAccount;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
                 "id=" + id +
-                ", empname='" + empname + '\'' +
+                ", empName='" + empName + '\'' +
                 ", email='" + email + '\'' +
                 ", gender=" + gender +
+                ", loginAccount='" + loginAccount + '\'' +
                 '}';
     }
 }

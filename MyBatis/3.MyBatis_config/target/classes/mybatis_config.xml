@@ -3,18 +3,34 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+    <properties resource="dbconfig.properties"></properties>
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <typeAliases>
+        <package name="com.gpw.bean"/>
+    </typeAliases>
+    <typeHandlers>
+
+    </typeHandlers>
     <environments default="development">
         <environment id="development">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
-                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?"/>
-                <property name="username" value="root"/>
-                <property name="password" value="gpw710324"/>
+                <property name="driver" value="${driverclass}"/>
+                <property name="url" value="${jdbcurl}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
             </dataSource>
         </environment>
     </environments>
+    <databaseIdProvider type="DB_VENDOR">
+        <property name="MySQL" value="mysql"/>
+        <property name="SQL Server" value="sqlserver"/>
+        <property name="Oracle" value="orcl"/>
+    </databaseIdProvider>
     <mappers>
-        <mapper resource="EmployeeDao.xml"/>
+<!--        <mapper resource="EmployeeDao.xml"/>-->
+        <package name="com.gpw.dao"/>
     </mappers>
 </configuration>

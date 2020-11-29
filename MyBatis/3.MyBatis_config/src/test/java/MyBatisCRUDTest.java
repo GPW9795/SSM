@@ -25,7 +25,7 @@ public class MyBatisCRUDTest {
     public void testInsert() throws IOException {
         SqlSession session = sqlSessionFactory.openSession(true);
         EmployeeDao employeeDao = session.getMapper(EmployeeDao.class);
-        Employee employee = new Employee(null, "cbx", "cbx@163.com", 1);
+        Employee employee = new Employee(null, "cbx", "cbx@163.com", 1, "cbx");
         try {
             int i = employeeDao.insertEmployee(employee);
             System.out.println(i);
