@@ -30,6 +30,18 @@ public class MyBatisCRUDTest {
     }
 
     @Test
+    public void test() throws IOException {
+        SqlSession session = sqlSessionFactory.openSession(true);
+        KeyDao keyDao = session.getMapper(KeyDao.class);
+        try {
+            Key key = keyDao.getKeyByIdSimple(1);
+            System.out.println(key);
+        } finally {
+            session.close();
+        }
+    }
+
+    @Test
     public void locktest() throws IOException {
         SqlSession session = sqlSessionFactory.openSession(true);
         LockDao lockDao = session.getMapper(LockDao.class);
