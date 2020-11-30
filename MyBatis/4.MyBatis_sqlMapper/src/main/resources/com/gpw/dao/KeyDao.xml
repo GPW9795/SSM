@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gpw.dao.KeyDao">
+    <select id="getKeyById" resultMap="myKey">
+        SELECT k.id, k.keyname, k.lockid, l.id AS lid, l.lockname FROM t_key k LEFT JOIN t_lock l ON k.lockid=l.id WHERE k.id=#{id}
+    </select>
+
+    <!--    <resultMap id="myKey" type="com.gpw.bean.Key">-->
+    <!--        <id column="id" property="id"/>-->
+    <!--        <result column="keyname" property="keyName"/>-->
+    <!--        <result column="lid" property="lock.id"/>-->
+    <!--        <result column="lockname" property="lock.lockName"/>-->
+    <!--    </resultMap>-->
+
+    <resultMap id="myKey" type="com.gpw.bean.Key">
+        <id column="id" property="id"/>
+        <result column="keyname" property="keyName"/>
+        <association property="lock" javaType="com.gpw.bean.Lock">
+            <id property="id" column="lid"/>
+            <result property="lockName" column="lockname"/>
+        </association>
+    </resultMap>
+</mapper>
