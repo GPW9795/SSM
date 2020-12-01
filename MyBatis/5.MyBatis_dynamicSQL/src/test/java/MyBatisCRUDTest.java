@@ -24,6 +24,23 @@ public class MyBatisCRUDTest {
         sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
     }
 
+
+    @Test
+    public void test01() throws IOException {
+        SqlSession session1 = sqlSessionFactory.openSession();
+        SqlSession session2 = sqlSessionFactory.openSession();
+        TeacherDao teacherDao1 = session1.getMapper(TeacherDao.class);
+        TeacherDao teacherDao2 = session2.getMapper(TeacherDao.class);
+
+        Teacher teacher1 = teacherDao1.getTeacherById(1);
+        System.out.println(teacher1);
+        session1.close();
+
+        Teacher teacher2 = teacherDao2.getTeacherById(1);
+        System.out.println(teacher2);
+        session2.close();
+    }
+
     @Test
     public void test() throws IOException {
         SqlSession session = sqlSessionFactory.openSession(true);
